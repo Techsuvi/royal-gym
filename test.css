@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/* Ensure body has no margin */
+body {
+    margin: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff; /* Adjust background color as needed */
+    color: #333; /* Adjust text color as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+/* Style for the logo */
+.logo {
+    font-size: 1.5em; /* Adjust font size as needed */
+}
+
+/* Style the navbar items */
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 0 15px; /* Adjust spacing between items */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333; /* Adjust link color as needed */
+    padding: 5px 10px; /* Adjust padding as needed */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
+/* Style for the button */
+.btn {
+    background-color: #007bff; /* Adjust button background color */
+    color: white; /* Adjust button text color */
+    border: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    cursor: pointer; /* Shows a pointer cursor on hover */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Adjust button hover color */
+}
